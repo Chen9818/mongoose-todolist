@@ -1,0 +1,158 @@
+{
+	"info": {
+		"_postman_id": "cae7bcbc-03fe-481e-8e97-d91f295c8b56",
+		"name": "mongoose-todolist",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "取得",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\":\"123456789\",\r\n    \"tags\":\"123456gg\",\r\n    \"type\":\"person\",\r\n    \"content\":\"123456gg999999\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://boiling-journey-31850.herokuapp.com/posts",
+					"protocol": "https",
+					"host": [
+						"boiling-journey-31850",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"posts"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "新增",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\":\"123456789\",\r\n    \"tags\":\"123456gg\",\r\n    \"type\":\"person\",\r\n    \"content\":\"123456gg999999\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://boiling-journey-31850.herokuapp.com/posts",
+					"protocol": "https",
+					"host": [
+						"boiling-journey-31850",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"posts"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "修改",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\":\"123456789\",\r\n    \"tags\":\"123456gg\",\r\n    \"type\":\"person\",\r\n    \"content\":\"123456gg99999911111\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://boiling-journey-31850.herokuapp.com/posts/6261725ca94d001795792345",
+					"protocol": "https",
+					"host": [
+						"boiling-journey-31850",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"posts",
+						"6261725ca94d001795792345"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "刪除全部",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\":\"123456789\",\r\n    \"tags\":\"123456gg\",\r\n    \"type\":\"person\",\r\n    \"content\":\"123456gg999999\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://boiling-journey-31850.herokuapp.com/posts",
+					"protocol": "https",
+					"host": [
+						"boiling-journey-31850",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"posts"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "刪除個別",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\":\"12345678910\",\r\n    \"tags\":\"123456gg\",\r\n    \"type\":\"person\",\r\n    \"content\":\"123456gg999999\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://boiling-journey-31850.herokuapp.com/posts",
+					"protocol": "https",
+					"host": [
+						"boiling-journey-31850",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"posts"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
